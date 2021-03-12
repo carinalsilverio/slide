@@ -70,7 +70,7 @@ export default class Slide {
     this.onEnd = this.onEnd.bind(this);
   }
 
-  // Slides config
+  // Slides Config
 
   slidePosition(slide) {
     const margin = (this.wrapper.offsetWidth - slide.offsetWidth) / 2;
