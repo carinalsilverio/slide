@@ -68,7 +68,7 @@ export class Slide {
     this.wrapper.addEventListener('touchend', this.onEnd);
   }
 
-  // Slides Config
+  // Slides config
 
   slidePosition(slide) {
     const margin = (this.wrapper.offsetWidth - slide.offsetWidth) / 2;
@@ -146,7 +146,7 @@ export class Slide {
   }
 }
 
-export class SlideNav extends Slide {
+export default class SlideNav extends Slide {
   constructor(slide, wrapper) {
     super(slide, wrapper);
     this.bindControlEvents();
